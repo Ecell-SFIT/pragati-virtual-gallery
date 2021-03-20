@@ -1,0 +1,104 @@
+body {
+  background-color: #212738;
+}
+
+.home-header {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #f97068;
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // z-index: -1;
+}
+
+#embedSlide {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7efc5;
+  // margin-top: 30vh;
+  .wrapper {
+    margin: 0 auto;
+
+    iframe {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+#carousel {
+  background: #f97068;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  #carouselExampleControls {
+    height: 80vh;
+  }
+
+  .carousel-item {
+    height: 80vh;
+    overflow: hidden;
+    border-radius: 0.5em;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+#menu {
+  margin: 1em 0;
+
+  .collapse-button {
+    // border: 0.5px solid rgba(0, 0, 0, 0.3);
+    // border-radius: 0.25em;
+    // padding: 0.8em;
+    font-weight: bold;
+  }
+
+  .card {
+    border: none;
+    background: transparent;
+    .card-body {
+      padding-top: 0;
+    }
+  }
+
+  .collapse-button {
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .list-group {
+    background: transparent;
+    border: none !important;
+    margin: 0;
+
+    .list-group-item {
+      background: transparent;
+      border: none;
+
+      a {
+        color: cyan;
+        opacity: 0.8;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.section-title {
+  margin: 2em 0em;
+  color: #57c4e5;
+}

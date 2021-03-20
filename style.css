@@ -1,0 +1,125 @@
+body {
+  background-color: #212738;
+}
+
+.home-header {
+  min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f97068;
+}
+
+#embedSlide {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e7efc5;
+}
+
+#embedSlide .wrapper {
+  margin: 0 auto;
+}
+
+#embedSlide .wrapper iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+#carousel {
+  background: #f97068;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#carousel #carouselExampleControls {
+  height: 80vh;
+}
+
+#carousel .carousel-item {
+  height: 80vh;
+  overflow: hidden;
+  border-radius: 0.5em;
+}
+
+#carousel img {
+  display: block;
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#menu {
+  margin: 1em 0;
+}
+
+#menu .collapse-button {
+  font-weight: bold;
+}
+
+#menu .card {
+  border: none;
+  background: transparent;
+}
+
+#menu .card .card-body {
+  padding-top: 0;
+}
+
+#menu .collapse-button {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#menu .list-group {
+  background: transparent;
+  border: none !important;
+  margin: 0;
+}
+
+#menu .list-group .list-group-item {
+  background: transparent;
+  border: none;
+}
+
+#menu .list-group .list-group-item a {
+  color: cyan;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.section-title {
+  margin: 2em 0em;
+  color: #57c4e5;
+}
+/*# sourceMappingURL=style.css.map */
