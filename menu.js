@@ -324,7 +324,7 @@ group = (item, index) => {
                 aria-expanded="${collapse}"
                 aria-controls="collapse-${item.id}"
               >
-                ${item.name}&nbsp;<i class="fa fa-chevron-down"></i>
+                ${item.name}&nbsp;&nbsp;<i class="fa fa-chevron-down"></i>
               </p>
             </div>
 

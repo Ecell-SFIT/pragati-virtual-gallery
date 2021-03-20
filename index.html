@@ -30,6 +30,19 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./style.css" />
 
     <title>Pragati Virtual Gallery</title>
@@ -44,7 +57,7 @@
     <section id="embedSlide">
       <div class="wrapper">
         <iframe
-          src="https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=true&loop=false&delayms=3000"
+          src="https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000"
           frameborder="0"
           width="960"
           height="569"
@@ -55,54 +68,45 @@
       </div>
     </section>
 
-    <section id="carousel">
+    <section id="instructions">
       <div class="container">
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                class="d-block w-100"
-                src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
-                alt="First slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
-                alt="Second slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
-                alt="Third slide"
-              />
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleControls"
+        <div class="section-title">
+          <h2
+            data-toggle="collapse"
+            href="#instructionsCollapse"
             role="button"
-            data-slide="prev"
+            aria-expanded="false"
+            aria-controls="instructionsCollapse"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-          </a>
+            Instructions&nbsp;&nbsp;<small
+              ><i class="fa fa-chevron-down"> </i
+            ></small>
+          </h2>
+        </div>
+        <div class="collapse" id="instructionsCollapse">
+          <h4>
+            Welcome to the Virtual Exhibition, here are few instructions -
+          </h4>
+          <br />
+          <ol>
+            <li>
+              To enter the exhibition, click on START. In each slide we have
+              buttons to move around the exhibition(at centre bottom).
+            </li>
+            <li>
+              We have special buttons in lobbies from where you can choose
+              rooms.
+            </li>
+            <li>
+              Also, in Composite Wall you can click on indiviual project to go
+              directly to that project.
+            </li>
+            <li>Maximise for better experience.</li>
+            <li>
+              Additionally click on "Please give your feedback!" to give your
+              review on individual projects.
+            </li>
+          </ol>
         </div>
       </div>
     </section>
@@ -148,6 +152,89 @@
             </div> -->
             <!-- End of collapse -->
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="carousel">
+      <div class="container">
+        <div class="section-title">
+          <h2>Gallery</h2>
+        </div>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100"
+                src="./slides/2.png"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./slides/3.png"
+                alt="Second slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./slides/4.png"
+                alt="Third slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./slides/69.png"
+                alt="Fourth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./slides/7.png"
+                alt="Fifth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./slides/87.jpg"
+                alt="Sixth slide"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100"
+                src="./slides/100.png"
+                alt="Seventh slide"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+          </a>
         </div>
       </div>
     </section>

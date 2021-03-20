@@ -2,6 +2,10 @@ body {
   background-color: #212738;
 }
 
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
 .home-header {
   min-height: 30vh;
   display: -webkit-box;
@@ -14,7 +18,14 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  color: #f97068;
+  color: #fec05d;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.home-header h1 {
+  font-weight: 600;
+  letter-spacing: 0.1em;
 }
 
 #embedSlide {
@@ -32,7 +43,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #e7efc5;
+  background-color: #e5e5e5;
 }
 
 #embedSlide .wrapper {
@@ -45,8 +56,11 @@ body {
 }
 
 #carousel {
-  background: #f97068;
-  height: 90vh;
+  padding-bottom: 2em;
+}
+
+#carousel .container {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,11 +77,13 @@ body {
 }
 
 #carousel #carouselExampleControls {
-  height: 80vh;
+  max-height: 569px;
+  max-width: 960px;
 }
 
 #carousel .carousel-item {
-  height: 80vh;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   border-radius: 0.5em;
 }
@@ -75,17 +91,23 @@ body {
 #carousel img {
   display: block;
   width: 100%;
+  height: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 #menu {
-  margin: 1em 0;
+  padding-bottom: 2em;
+  background-color: #e5e5e5;
 }
 
 #menu .collapse-button {
   font-weight: bold;
+}
+
+#menu .section-title {
+  color: #212738 !important;
 }
 
 #menu .card {
@@ -98,7 +120,8 @@ body {
 }
 
 #menu .collapse-button {
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
+  opacity: 0.8;
 }
 
 #menu .list-group {
@@ -113,13 +136,31 @@ body {
 }
 
 #menu .list-group .list-group-item a {
-  color: cyan;
-  opacity: 0.8;
+  color: #25408a;
   text-decoration: none;
 }
 
 .section-title {
-  margin: 2em 0em;
+  padding: 2em 0em;
   color: #57c4e5;
+  text-align: center;
+  color: #fec05d;
+  text-transform: uppercase;
+}
+
+.section-title h2 {
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+
+#instructions {
+  color: whitesmoke;
+  opacity: 0.9;
+  padding-bottom: 2em;
+  line-height: 2em;
+}
+
+#instructions li {
+  font-size: 1.1em;
 }
 /*# sourceMappingURL=style.css.map */
