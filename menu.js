@@ -175,121 +175,124 @@ let projectData = [
         url:
           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_485",
       },
-      //   {
-      //     name: "",
-      //     url:
-      //       "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_499",
-      //   },
+      {
+        name: "Iot Based Smart Aquarium Monitoring System",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_499",
+      },
     ],
   },
-  //   {
-  //     name: "Room 6",
-  //     id: "room-6",
-  //     projects: [
-  //       {
-  //         name: "Smart shopping with Smart Trolley",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_60",
-  //       },
-  //       {
-  //         name: "Deep Learning - Plant Species",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_74",
-  //       },
-  //       {
-  //         name: "Motion Based Smart Device For Differently Abled People",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_88",
-  //       },
-  //       {
-  //         name: "Home Automation Center",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_102",
-  //       },
-  //       {
-  //         name: "Modernization of AGV by RFID",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_116",
-  //       },
-  //       {
-  //         name: "Drishti 2.0",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_130",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     name: "Room 7",
-  //     id: "room-7",
-  //     projects: [
-  //       {
-  //         name: "Smart shopping with Smart Trolley",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_60",
-  //       },
-  //       {
-  //         name: "Deep Learning - Plant Species",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_74",
-  //       },
-  //       {
-  //         name: "Motion Based Smart Device For Differently Abled People",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_88",
-  //       },
-  //       {
-  //         name: "Home Automation Center",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_102",
-  //       },
-  //       {
-  //         name: "Modernization of AGV by RFID",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_116",
-  //       },
-  //       {
-  //         name: "Drishti 2.0",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_130",
-  //       },
-  //     ],
-  //   },
-  //   {
-  //     name: "Room 8",
-  //     id: "room-8",
-  //     projects: [
-  //       {
-  //         name: "Smart shopping with Smart Trolley",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_60",
-  //       },
-  //       {
-  //         name: "Deep Learning - Plant Species",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_74",
-  //       },
-  //       {
-  //         name: "Motion Based Smart Device For Differently Abled People",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_88",
-  //       },
-  //       {
-  //         name: "Home Automation Center",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_102",
-  //       },
-  //       {
-  //         name: "Modernization of AGV by RFID",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_116",
-  //       },
-  //       {
-  //         name: "Drishti 2.0",
-  //         url:
-  //           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_130",
-  //       },
-  //     ],
-  //   },
+  {
+    name: "Room 6",
+    id: "room-6",
+    projects: [
+      {
+        name: "Smart Agriculture Management Without Internet",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_552",
+      },
+      {
+        name: "Remote IOT Based Health Monitoring Device",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_566",
+      },
+      {
+        name: "SMART ELECTRIC WHEELCHAIR",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_580",
+      },
+      {
+        name:
+          "Pineapple leaf fiber extraction machine for sustainable development",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_594",
+      },
+      {
+        name: "IOT Based Smart Social Distancing Device",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_608",
+      },
+      {
+        name: "Low Cost Portable Ventilator",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_622",
+      },
+    ],
+  },
+  {
+    name: "Room 7",
+    id: "room-7",
+    projects: [
+      {
+        name:
+          "Proactive analysis of pedestrian safety at signalized intersections",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_675",
+      },
+      {
+        name:
+          "A vision based model for autonomous driving car using CNN and IOT",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_689",
+      },
+      {
+        name: "Vehicle Safety System and Emergency Telematcis",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_703",
+      },
+      {
+        name: "Visualising 3D models of Body organs using AR",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_717",
+      },
+      {
+        name: "Akira - Voice Based Email For The Visually Impaired",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_731",
+      },
+      {
+        name: "Altitude Measuring System Using BMP180 In Drones",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_745",
+      },
+    ],
+  },
+  {
+    name: "Room 8",
+    id: "room-8",
+    projects: [
+      {
+        name: "Smart Waste Management & Bio Tractor",
+        url:
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_798",
+      },
+      // {
+      //   name: "Deep Learning - Plant Species",
+      //   url:
+      //     "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_74",
+      // },
+      // {
+      //   name: "Motion Based Smart Device For Differently Abled People",
+      //   url:
+      //     "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_88",
+      // },
+      // {
+      //   name: "Home Automation Center",
+      //   url:
+      //     "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_102",
+      // },
+      // {
+      //   name: "Modernization of AGV by RFID",
+      //   url:
+      //     "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_116",
+      // },
+      // {
+      //   name: "Drishti 2.0",
+      //   url:
+      //     "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_130",
+      // },
+    ],
+  },
 ];
 
 $(document).ready(function () {

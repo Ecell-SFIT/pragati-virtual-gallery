@@ -18,7 +18,7 @@ body {
   h1 {
     font-weight: 600;
     letter-spacing: 0.1em;
-    font-size: 2.2em;
+    font-size: 2em;
     margin-bottom: 0 !important;
   }
   // background-color: #000000;
@@ -159,5 +159,55 @@ body {
   }
   li {
     font-size: 1.1em;
+  }
+}
+
+#carousel {
+  .gallery-cell {
+    width: 66%;
+    max-height: 569px;
+    margin-right: 10px;
+    background: #8c8;
+    //   counter-increment: gallery-cell;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    & > img {
+      // width: auto;
+      display: block;
+      height: 100% !important;
+      object-fit: contain !important;
+    }
+  }
+}
+
+.flickity-button {
+  // background: transparent;
+}
+
+#sponsors {
+  background-color: #e5e5e5;
+  .section-title {
+    color: #212738;
+  }
+
+  .col {
+    overflow: hidden;
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      margin: 1em 0em;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  img {
+    width: 100%;
   }
 }

@@ -30,17 +30,23 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
       rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
     />
 
     <link rel="stylesheet" href="./style.css" />
@@ -161,81 +167,41 @@
         <div class="section-title">
           <h2>Gallery</h2>
         </div>
-        <div
-          id="carouselExampleControls"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                class="d-block w-100"
-                src="./slides/2.png"
-                alt="First slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="./slides/3.png"
-                alt="Second slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="./slides/4.png"
-                alt="Third slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="./slides/69.png"
-                alt="Fourth slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="./slides/7.png"
-                alt="Fifth slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="./slides/87.jpg"
-                alt="Sixth slide"
-              />
-            </div>
-            <div class="carousel-item">
-              <img
-                class="d-block w-100"
-                src="./slides/100.png"
-                alt="Seventh slide"
-              />
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only"></span>
-          </a>
+      </div>
+      <div
+        class="gallery js-flickity"
+        data-flickity-options='{ "wrapAround": true, "autoPlay": true }'
+      >
+        <div class="gallery-cell">
+          <img src="./slides/100.png" alt="" />
         </div>
+        <div class="gallery-cell">
+          <img src="./slides/2.png" alt="" />
+        </div>
+        <div class="gallery-cell">
+          <img src="./slides/3.png" alt="" />
+        </div>
+        <div class="gallery-cell">
+          <img src="./slides/4.png" alt="" />
+        </div>
+        <div class="gallery-cell">
+          <img src="./slides/69.png" alt="" />
+        </div>
+        <div class="gallery-cell">
+          <img src="./slides/7.png" alt="" />
+        </div>
+        <div class="gallery-cell">
+          <img src="./slides/87.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="sponsors">
+      <div class="container">
+        <div class="section-title">
+          <h2>Sponsors</h2>
+        </div>
+        <div class="row justify-content-center" id="sponsors-grid"></div>
       </div>
     </section>
 
@@ -255,6 +221,10 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
     <script src="./menu.js"></script>
+    <script src="./carousel.js"></script>
   </body>
 </html>
