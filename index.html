@@ -51,6 +51,13 @@
 
     <link rel="stylesheet" href="./style.css" />
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+
     <title>Pragati Virtual Gallery</title>
   </head>
   <body>
@@ -89,16 +96,12 @@
             ></small>
           </h2>
         </div>
-        <div class="collapse" id="instructionsCollapse">
+        <div class="collapse show" id="instructionsCollapse">
           <h4>
             Welcome to the Virtual Exhibition, here are few instructions -
           </h4>
           <br />
           <ol>
-            <li>
-              Additionally click on "Please give your feedback!" to give your
-              review on individual projects.
-            </li>
             <li>
               To enter the exhibition, click on START. In each slide we have
               buttons to move around the exhibition(at centre bottom).
@@ -112,6 +115,10 @@
               directly to that project.
             </li>
             <li>Maximise for better experience.</li>
+            <li>
+              Additionally click on "Please give your feedback!" to give your
+              review on individual projects.
+            </li>
           </ol>
         </div>
       </div>
@@ -226,13 +233,6 @@
 
     <script src="./menu.js"></script>
     <script src="./carousel.js"></script>
-
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
 
     <script>
       // Your web app's Firebase configuration
