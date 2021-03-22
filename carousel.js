@@ -23,7 +23,7 @@ $(document).ready(function () {
 sponsor = (item, index) => {
   console.log(item);
 
-  return `<div class="col col-md-3">
+  return `<div class="col col-6 col-md-3">
             <div class="wrapper"><img src="./sponsors/${item}" alt="" /></div>
     </div>
   `;

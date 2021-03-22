@@ -236,4 +236,21 @@ body {
 #sponsors img {
   width: 100%;
 }
+
+@media screen and (max-width: 568px) {
+  #carousel .gallery-cell {
+    width: 90%;
+  }
+  #embedSlide {
+    height: 100%;
+  }
+  #embedSlide .wrapper {
+    border: 1px sold red;
+    margin: 0;
+    width: 100%;
+  }
+  #embedSlide .wrapper iframe {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
