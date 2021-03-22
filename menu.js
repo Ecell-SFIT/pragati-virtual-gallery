@@ -150,9 +150,9 @@ let projectData = [
     id: "room-5",
     projects: [
       {
-        name: "Green Weathering Tiles",
+        name: "Smart Waste Management & Bio Tractor",
         url:
-          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_429",
+          "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc955b7ddec_1_75",
       },
       {
         name: "Shower Buddy",
@@ -262,15 +262,10 @@ let projectData = [
     id: "room-8",
     projects: [
       {
-        name: "Smart Waste Management & Bio Tractor",
+        name: "PREVIOUS YEAR TECHNICAL PROJECTS",
         url:
           "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_798",
       },
-      // {
-      //   name: "Deep Learning - Plant Species",
-      //   url:
-      //     "https://docs.google.com/presentation/d/e/2PACX-1vQz-_A_MVOquHX91C1kSYsdqd92oeYj2HPDbgqBdtb0XKFNkCQDdk86qrnxRtYFx1G9FolS2ug2Iely/embed?start=false&loop=false&delayms=3000&slide=id.gc8e433cffd_0_74",
-      // },
       // {
       //   name: "Motion Based Smart Device For Differently Abled People",
       //   url:
