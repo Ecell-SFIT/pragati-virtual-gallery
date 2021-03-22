@@ -7,7 +7,7 @@ let images = [
   "imperial.jpeg",
   "inmovidu.jpg",
   "lawyered.png",
-  "Lmt.png",
+  "lmt.png",
   "project_contest.jpeg",
   "south_indian_bank.jpg",
   "trippy.jpg",
